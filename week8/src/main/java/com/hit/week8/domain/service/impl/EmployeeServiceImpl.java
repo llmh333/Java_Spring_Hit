@@ -1,14 +1,12 @@
 package com.hit.week8.domain.service.impl;
 
-import com.hit.week8.Mapper.DepartmentMapper;
-import com.hit.week8.Mapper.EmployeeMapper;
-import com.hit.week8.Mapper.PositionMapper;
-import com.hit.week8.Mapper.UserMapper;
+import com.hit.week8.mapper.DepartmentMapper;
+import com.hit.week8.mapper.EmployeeMapper;
+import com.hit.week8.mapper.PositionMapper;
+import com.hit.week8.mapper.UserMapper;
 import com.hit.week8.constant.ErrorCode;
 import com.hit.week8.domain.dto.repsonse.EmployeeResponseDTO;
-import com.hit.week8.domain.dto.repsonse.PositionResponseDTO;
 import com.hit.week8.domain.dto.request.CreateEmployeeRequest;
-import com.hit.week8.domain.dto.request.CreateEmployeeSearchRequest;
 import com.hit.week8.domain.dto.request.UpdateEmployeeRequest;
 import com.hit.week8.domain.entity.Department;
 import com.hit.week8.domain.entity.Employee;
@@ -21,12 +19,10 @@ import com.hit.week8.domain.repository.PositionRepository;
 import com.hit.week8.domain.repository.UserRepository;
 import com.hit.week8.domain.service.EmployeeService;
 import lombok.RequiredArgsConstructor;
-import org.springframework.data.jpa.domain.Specification;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.function.Predicate;
 
 @Service
 @RequiredArgsConstructor

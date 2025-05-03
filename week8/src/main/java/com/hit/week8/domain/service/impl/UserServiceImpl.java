@@ -1,10 +1,9 @@
 package com.hit.week8.domain.service.impl;
 
-import com.hit.week8.Mapper.UserMapper;
+import com.hit.week8.mapper.UserMapper;
 import com.hit.week8.domain.dto.repsonse.UserResponseDTO;
 import com.hit.week8.domain.dto.request.CreateUserRequest;
 import com.hit.week8.domain.dto.request.UpdateUserRequest;
-import com.hit.week8.domain.entity.Employee;
 import com.hit.week8.domain.entity.User;
 import com.hit.week8.constant.ErrorCode;
 import com.hit.week8.domain.exception.DuplicateException;
@@ -14,7 +13,6 @@ import com.hit.week8.domain.service.UserService;
 import com.hit.week8.util.EncryptionPassword;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
-import org.springframework.web.bind.MethodArgumentNotValidException;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;

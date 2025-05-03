@@ -1,6 +1,6 @@
 package com.hit.week8.domain.service.impl;
 
-import com.hit.week8.Mapper.PositionMapper;
+import com.hit.week8.mapper.PositionMapper;
 import com.hit.week8.constant.ErrorCode;
 import com.hit.week8.domain.dto.repsonse.PositionResponseDTO;
 import com.hit.week8.domain.dto.request.CreatePositionRequest;

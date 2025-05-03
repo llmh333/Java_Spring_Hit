@@ -1,6 +1,6 @@
 package com.hit.week8.domain.service.impl;
 
-import com.hit.week8.Mapper.DepartmentMapper;
+import com.hit.week8.mapper.DepartmentMapper;
 import com.hit.week8.constant.ErrorCode;
 import com.hit.week8.domain.dto.repsonse.DepartmentResponseDTO;
 import com.hit.week8.domain.dto.request.CreateDepartmentRequest;
@@ -10,7 +10,6 @@ import com.hit.week8.domain.exception.DuplicateException;
 import com.hit.week8.domain.exception.NotFoundException;
 import com.hit.week8.domain.repository.DepartmentRepository;
 import com.hit.week8.domain.service.DepartmentService;
-import com.hit.week8.response.ApiResponseUtil;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

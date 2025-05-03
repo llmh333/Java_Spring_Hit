@@ -1,4 +1,4 @@
-package com.hit.week8.Mapper;
+package com.hit.week8.mapper;
 
 import com.hit.week8.domain.dto.repsonse.EmployeeResponseDTO;
 import com.hit.week8.domain.dto.request.CreateEmployeeRequest;
